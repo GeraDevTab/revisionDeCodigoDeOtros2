@@ -1,0 +1,9 @@
+/*resumen de actividades
+se realizo modificacion en el archivo html y el archivo .js. cada moficiacion esta señalada en forma
+de comentarios. sobre las lineas de codigo a las que se le aplico.
+
+De manera general, el programa recibe 3 datos, y valida cada uno de ellos en longitud, en numero si entra dentro de un rango el numero, y convierte una seleccion en otro texto de nacionalidad.
+despues de las validaciones agrega a una lista las entradas que si son aceptadas.
+Despues cada uno de los elementos listados, pueden ser borrados, por medio de una funcion que ejecuta.
+
+*/

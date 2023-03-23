@@ -1,4 +1,6 @@
-<!DOCTYPE html>
+<!--formulario que agrega invitados a una lista,
+   si las personas cumplen con los criterios de edad-->
+  <!DOCTYPE html>
 <html lang="en">
 
 <head>
@@ -6,7 +8,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" type="text/css" media="screen" href="./styles.css">
-  <title>Formulario</title>
+  <title>FormularioCorregido</title>
 </head>
 <body>
   <h1>Bienvenidos a mi fiesta</h1>
@@ -26,15 +28,18 @@
       <option value="vnzl">Venezolana</option>
     </select>
     <br />
+    <!--se agrego un id al boton -->
     <input type="submit">
   </form>
 
   <div>
     <h2>Lista de invitados</h2>
-
+    <!--se agrega div para posicionar lista de invitados-->
+    <div id="lista-de-invitados"></div>
   </div>
 
-  <script src="../formulario.js"></script>
+  <!--la siguiente linea que apunta al script, no esta bien escrita. se procede a eliminar 1 punto al inicio de la direccion-->
+  <script src="./formulario.js"></script>
 </body>
 
 </html>
